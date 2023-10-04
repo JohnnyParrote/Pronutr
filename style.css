@@ -80,6 +80,8 @@ font-weight: normal;
   font-weight: normal;
   }
 
+  @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
 body {
  background-color: #D17538;
 }
