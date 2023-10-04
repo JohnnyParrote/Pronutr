@@ -81,6 +81,13 @@ font-weight: normal;
   font-weight: normal;
   }
 
+  @font-face {
+    font-family: "SourceSans";
+    src: url("fonts/Source_Sans/SourceSans3-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    }
+
 
 
 body {
@@ -95,7 +102,7 @@ body {
 
 
 .header {
-  font-family: "Pacifico";
+  font-family: "SourceSans";
   padding: 10px 0;
 }
 
@@ -104,7 +111,7 @@ body {
   display: grid;
   grid-template-columns: 350px 850px  ;
   justify-content: left;
-  background-color: #4E792B;
+  background-color: #fff;
   
 }
 
@@ -130,11 +137,11 @@ body {
 .navigation a {
   position: relative;
   font-size: 1.1em;
-  color: #fff;
+  color: #2F3235;
   text-decoration: none;
   font-weight: 500;
   text-decoration: none;
-  color: #fff;
+  
   font-size: 19px;
   padding: 10;
   
@@ -215,18 +222,36 @@ body {
 /* контакты */
 
 .contacts {
+  padding-bottom: 50px;
   margin-top: 50px;
   background-size: cover;
-  display: flex;
+  display: grid;
   justify-content: center;
   align-items: center;
   width: 100%;
   background-image: url(img/carrot-fon.jpg);
 }
 
+.contacts h1 {
+  font-family: "SourceSans";
+  color: #fff;
+  padding: 50px 0;
+  text-shadow: #000 1px 0 10px;
+}
+
 .cont-button {
+  background-color: #fff;
   display: grid;
-  padding: 100px 0;
+  text-align: center;
+  margin: 0 40px;
+  padding: 10px;
+  box-shadow: 5px 5px 10px black;
+}
+.cont-button a {
+  
+  font-family: "SourceSans";
+  color: #2F3235;
+  text-decoration: none;
 }
 
 .cont-button button {
@@ -269,4 +294,3 @@ body {
 .news_main:hover {
   border: solid #D17538;
 }
-
