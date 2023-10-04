@@ -59,6 +59,10 @@ select {
   }
 }
 
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+
 @font-face {
   font-family: "Roboto-Regular";
   src: url("../fonts/Roboto/Roboto-Regular.ttf") format("truetype");
@@ -80,7 +84,7 @@ font-weight: normal;
   font-weight: normal;
   }
 
-  @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
 
 body {
  background-color: #D17538;
@@ -94,7 +98,7 @@ body {
 
 
 .header {
-  font-family: 'Caveat', cursive;
+  font-family: "Pacifico";
   padding: 10px 0;
 }
 
@@ -195,10 +199,6 @@ body {
   padding: 0 50px;
 }
 
-.blog-main {
-
-}
-
 .blog-content {
   
   display: grid;
@@ -242,6 +242,7 @@ body {
 .cont-button button p {
   color: #fff;
 }
+
 
 /* новости */
 
