@@ -62,21 +62,21 @@ select {
 
 @font-face {
   font-family: "Roboto-Regular";
-  src: url("../fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+  src: url("fonts/Roboto/Roboto-Regular.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face {
 font-family: "Montserrat-Regular";
-src: url("../fonts/Montserrat/Montserrat-Regular.ttf") format("truetype");
+src: url("fonts/Montserrat/Montserrat-Regular.ttf") format("truetype");
 font-style: normal;
 font-weight: normal;
 }
 
 @font-face {
   font-family: "Pacifico";
-  src: url('/fonts/Pacifico/Pacifico-Regular.ttf') format("truetype");
+  src: url("fonts/Pacifico/Pacifico-Regular.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
   }
