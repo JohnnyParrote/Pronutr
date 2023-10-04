@@ -60,9 +60,6 @@ select {
 }
 
 
-@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
-
-
 @font-face {
   font-family: "Roboto-Regular";
   src: url("../fonts/Roboto/Roboto-Regular.ttf") format("truetype");
