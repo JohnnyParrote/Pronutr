@@ -370,7 +370,7 @@ body {
 } 
 
 .main {
-  padding: 0 50px;
+  padding: 50px 50px;
 }
 
 .blog-content {
@@ -393,7 +393,7 @@ body {
 
 .contacts {
   
-  margin-top: 50px;
+  
   background-size: cover;
   display: grid;
   justify-content: center;
@@ -466,7 +466,7 @@ body {
   width: 1000px;
  }
  .main {
-  padding: 0 25px;
+  padding: 25px 25px;
  }
  .basic {
   grid-template-columns: 350px 650px;
@@ -482,6 +482,9 @@ body {
  }
  .footer-line {
   width: 950px;
+}
+.recipes-img  {
+  height: 450px;
 }
 }
 
@@ -520,7 +523,7 @@ body {
 
 @media (max-width: 550px){
   .wrapper {
-    width: 400px;
+    width: 450px;
   }
 
   .footer-line {
@@ -530,4 +533,130 @@ body {
     padding: 0 5px;
     text-align: center;
   }
+}
+
+/* рецепты */
+
+.recipers {
+  padding: 50px 50px;
+}
+
+.recipres-main h2 {
+  color: #D17538;
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+.recipres-main h3 {
+  padding: 25px 25px;
+  
+}
+
+.recipes-img {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.recipes-img img {
+  width: 100%;
+  max-height: 750px;
+  
+}
+
+.ingredients ul  {
+  padding: 10px 100px;
+  box-shadow: 1px 1px 20px ;
+  background-color: #D17538;
+}
+
+.ingredients ul li {
+ list-style-type: disc;
+ padding: 0 25px;
+ text-shadow: #000000 1px 1px 1px;
+}
+
+.cooking ol {
+  background-color: #D17538;
+  padding: 10px 100px;
+  box-shadow: 1px 1px 20px ;
+}
+
+.cooking ol li {
+  padding: 0 25px;
+  text-shadow: #000000 1px 1px 1px;
+}
+
+/* Кейсы */
+
+.cases-img img {
+  box-shadow: #000000 1px 1px 10px;
+}
+
+.cases-forMe {
+  padding: 25px 0;
+  display: grid;
+  justify-content: center;
+}
+
+.cases {
+  padding: 50px 50px;
+}
+
+.cases-info {
+  padding: 50px 0;
+}
+
+.cases-img {
+  display: flex;
+  justify-content: center;
+}
+
+.cases-what {
+  padding: 25px 0;
+}
+.cases-what ul {
+padding: 10px 100px;
+box-shadow: 1px 1px 20px ;
+background-color: #D17538;
+}
+
+.cases-what ul li {
+  padding: 0 25px;
+  text-shadow: #000000 1px 1px 1px;
+}
+
+.cases-courses ul {
+padding: 10px 100px;
+box-shadow: 1px 1px 20px ;
+background-color: #D17538;
+}
+
+.cases-courses ul li {
+  padding: 5px 25px;
+  text-shadow: #000000 1px 1px 1px;
+}
+
+/* мобильные кейсы */
+
+@media (max-width: 550px){
+ .cases{
+  display: grid;
+  justify-content: center;
+ }
+
+ .basic {
+  display: grid;
+  justify-content: center;
+ }
+
+ .cases-what ul li{
+  padding: 5px 0;
+ }
+
+ .cases-courses ul li {
+  padding: 5px 0;
+ }
+  
 }
