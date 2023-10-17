@@ -1054,6 +1054,12 @@ padding: 25px 0;
   .head__container h1 {
     top: 150px;
   }
+  .navigation-mobile {
+    margin: 0 auto;
+  }
+  .navigation-mobile.active {
+    margin: 0 auto;
+  }
 }
 
 @media (max-width: 410px){
@@ -1136,11 +1142,11 @@ padding: 25px 0;
     justify-content: center;
     flex-direction: column;
     margin: 0 auto;
-    width: 375px;
+    max-width: 100%;
   }
   .pagination a {
-    width: 250px;
-    padding: 0 3px;
+    padding: 8px 16px;
+    
   }
   .news_main {
     width: 300px;
@@ -1215,6 +1221,7 @@ padding: 25px 0;
   }
   .basic {
     display: flex;
+    background-color: #f2eeea;
   }
 }
 
